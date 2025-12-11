@@ -25,4 +25,4 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Run Christmas List Tests
-        run: python -m pytest --spec
+        run: python -m pytest test_christmas_list.py --spec
